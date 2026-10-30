@@ -1,0 +1,6 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/widget_root" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="18dp" android:background="@drawable/widget_bg">
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="МОЖНО ПОТРАТИТЬ · СЕГОДНЯ" android:textColor="#C5E4D5" android:textSize="12sp"/>
+<TextView android:id="@+id/widget_amount" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="#FFFFFF" android:textSize="30sp" android:textStyle="bold"/>
+<TextView android:id="@+id/widget_detail" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="#FFFFFF" android:textSize="12sp"/>
+<TextView android:id="@+id/widget_add" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingTop="10dp" android:text="＋ Добавить расход" android:textColor="#D9F99D" android:textSize="15sp"/>
+</LinearLayout>
